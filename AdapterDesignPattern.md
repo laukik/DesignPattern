@@ -3,6 +3,7 @@ Adapter Design Pattern
 Also known as wrapper
 it allows two interfaces to get compitable with each other.
 it converts ome interface to another interface that client expect.
+```java
 //example : Universal Power Adapter..
 
 //  It Allow us to keep the implementation of the ITarget same
