@@ -4,19 +4,19 @@ It is a set of Factory Method Design Pattern
 Provides interface for creating  families of related or dependentObject without specifiying the name of its concrete implementation
 ```java
 //example :: Create UI Control for diffrent OS.
-Interface IComponent{
+interface IComponent{
     //Methods
 }
 
-Interface IComponentX implements IComponent {
+interface IComponentX implements IComponent {
     //Methods
 }
 
-Interface IComponentY implements IComponent{
+interface IComponentY implements IComponent{
     //Methods
 }
 
-Interface IComponentFactory{
+interface IComponentFactory{
     IComponent createX()
     IComponent createY()
     //...
