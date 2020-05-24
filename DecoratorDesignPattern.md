@@ -8,14 +8,14 @@ Alternare option to subclassing for extending functionality.
 ```java
 //example :: Depricition
 
-Interface IComponent{
+interface IComponent{
     //Methods..
 }
 
 /***
 *    IDecorator is a IComponent as well as has a IComponent
 **/
-InterFace IDecorator implements IComponent{
-    InterFace IComponent;
+interFace IDecorator implements IComponent{
+    interFace IComponent;
     //Methods..
 }
