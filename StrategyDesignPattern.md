@@ -12,17 +12,14 @@ that can do it. So that Child can decide which behaviour it want dynamically.
 ```java
 
 //Examples :
-Interface ICommit{
-
-    Interface:: ICommitMethod 
-    Method :: doCommit();
-
+interface ICommit{
+    interface ICommitMethod; 
+    void doCommit();
 }
 
-Interface ICommitMethod {
-    Method :: getMethod(); // Here Method can be OnePhaseCommit, TwoPhaseCommit, BatchCommit
+interface ICommitMethod {
+    void getMethod(); // Here Method can be OnePhaseCommit, TwoPhaseCommit, BatchCommit
 }
-
 
 
 
