@@ -2,9 +2,10 @@ Decorator Design Pattern
 -------------------------------
 Providing behaviour dynamically.
 Accomplished by Wrapping
-
 Attached additional responsiblity to an Object and Runtime( Dynamically ).
 Alternare option to subclassing for extending functionality.
+
+```java
 //example :: Depricition
 
 Interface IComponent{
