@@ -9,8 +9,9 @@ instead of providing method to be implemented by child, provide interfaces
 that can do it. So that Child can decide which behaviour it want dynamically.
 
 
+```java
 
-Examples :
+//Examples :
 Interface ICommit{
 
     Interface:: ICommitMethod 
