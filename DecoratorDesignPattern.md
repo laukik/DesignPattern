@@ -15,7 +15,7 @@ interface IComponent{
 /***
 *    IDecorator is a IComponent as well as has a IComponent
 **/
-interFace IDecorator implements IComponent{
+interface IDecorator implements IComponent{
     interFace IComponent;
     //Methods..
 }
