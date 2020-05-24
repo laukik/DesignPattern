@@ -2,6 +2,7 @@ Singleton Design Pattern
 --------------------------------
 Allows only one instance of the Object to be created and make it available globally via a single contact
 
+```java
 
 class Singleton{
     private Singleton();
