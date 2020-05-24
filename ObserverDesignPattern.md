@@ -2,16 +2,17 @@ Observer Design Pattern
 ------------------------------
 Notion is to remove polling.
 it is Push intstead of Poll
+1. Observers needs to register themselves to the Subject(Publisher).
+2. In case of state change Subject will notify all the Observers
 
-
+```java
+/**
 Publisher           Subscribers
         "notify"
 +++++                +++++
 + P + -------------> + S +
 +++++                +++++
-
-1. Observers needs to register themselves to the Subject(Publisher).
-2. In case of state change Subject will notify all the Observers
+**/
 
 interface ISubject{
     IObserver[]
