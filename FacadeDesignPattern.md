@@ -3,6 +3,7 @@ Facade Design Pattern
 It provides unified interface for a set of interfaces  in the subsystem.
 It defines an higer level interface.
 Helpful when many classes are interdependent and using eah other.
+```java
 //example : Compiler 
 //Principle of least knowledge { Law of Demeter}
 
